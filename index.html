@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1 - Login Page</title>
+   
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    
+    <div class="topnav">
+        <a href="C:\Users\pc\Desktop\mntTask\Assignment1\index.html">Home</a>
+        <a href="C:\Users\pc\Desktop\mntTask\Assignment1\login.html">Login</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    
+    <div class="container">
+    <form name="myForm" method="get" action="" class="loginForm" onsubmit="return validateLoginForm()">
+        <h1 style="text-align:center;">Registration</h1>
+        <div class="flex-input">
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter name" required><br><br>
+        </div>
+        <div class="flex-input">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required><br><br>
+        </div>
+        <div class="flex-input">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter Phone Number" required><br><br>
+        </div>
+        <div class="flex-input">
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" placeholder="Enter Password" required><br><br>
+        </div>
+
+        <div class="flex-input">
+            <label for="confirmPass">Confirm-Password:</label>
+            <input type="password" id="confirmPass" name="confirmPass" placeholder="Re-enter password" required><br><br>
+        </div>
+
+        <div class="flex-input">
+            <button type="submit" >Register</button> 
+           
+        </div>
+    </form>
+    </div>
+    <script src="myscript.js"></script>
+</body>
+</html>
